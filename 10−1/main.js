@@ -1,14 +1,13 @@
 // 問1
 let numbers = [2, 5, 12, 13, 15, 18, 22];
-function isEven() {
-  for(let i = 0; i < numbers.length; i++){
-    if(numbers[i] %2 === 0){
-      num = numbers[i];
-      console.log(num + 'は偶数です');
+function isEven(num) {
+  for(let i = 0; i < num.length; i++){
+    if(num[i] %2 === 0){
+      console.log(num[i] + 'は偶数です');
     }
   }
 }
-isEven();
+isEven(numbers);
 
 // 問2
 class Car{
